@@ -1,9 +1,11 @@
-# aulacss
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap" rel="stylesheet">
+
     <link href="css/style.css" rel="stylesheet" />
     
     <script>
@@ -12,10 +14,10 @@
 </head>
 <body>
     <header class = "cabecalho">
-        <!--<img  src="./img/foto.jpg"/>-->
+        <img  src="./img/foto.jpg"/>
         <div> 
-            <h1>Restaurante do Ratão</h1>
-            <p>Sejam bem-vindos ao melhor restaurante de afogados da ingazeira - PE. 
+            <h1 class="cabecalho_titulo">Restaurante do Ratão</h1>
+            <p class="cabecalho_subtitulo">Sejam bem-vindos ao melhor restaurante de afogados da ingazeira - PE. 
                 Comida regionais e internacionais, drinks e bom atendimento, você só encontra aqui.
             </p>
         </div>
@@ -103,7 +105,7 @@
         Estamos funcionando!
         <h3>Contatos</h3>
         <p>(87)99999-9999</p>
-        <p></p>
+        <p>Rua Sítio do pica-pau, Zona rural, numero 24</p>
     </footer>
 
     </nav>
