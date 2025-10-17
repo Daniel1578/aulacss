@@ -1,0 +1,66 @@
+
+*{
+     margin: 0;   
+     padding: 0;   
+     box-sizing: border-box;
+}
+
+
+body{
+    width: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.cabecalho{
+    background-color: rgb(151, 12, 12);
+    color: rgb(255, 248, 248);
+    text-align: center;
+    width: 80%;
+    height: 50%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+.cabecalho_titulo{
+    font-weight: bold;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: "Bitcount Prop Single Ink", system-ui;
+}
+
+
+.cabecalho_subtitulo{
+    font-style: italic;
+    font-size: 1.5rem;
+    font-family: "Bitcount Prop Single Ink", system-ui;
+}
+
+
+.principal{
+    border-top: 20px double rgb(73, 66, 173) ;
+    background-color: aquamarine;
+    color: rgb(7, 4, 1);
+    width: 80%;
+    height: 50%;
+    padding: 50px;  
+}
+
+
+.final{
+    background-color: rgb(7, 4, 0);
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2.5rem;
+    font-family: "Bitcount Prop Single Ink", system-ui;
+    text-align: center;
+    width: 80%;
+    height: 50%;
+    padding: 40px;
+
+    border-top: 20px double rgb(150, 1, 1) ;
+
+}
